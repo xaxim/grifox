@@ -4,8 +4,10 @@
 // @version      <%= pkg.version %>
 // @description  <%= pkg.description %>
 // @author       <%= pkg.author %>
-// @include      *
+// @include     https://intranet.mpdft.mp.br/grifo/**
 // @icon         https://cdn-images-1.medium.com/max/1187/1*JsyV8lXMuTbRVLQ2FPYWAg.png
+// @require     https://cdnjs.cloudflare.com/ajax/libs/arrive/2.4.1/arrive.min.js
+// @require     https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_listValues

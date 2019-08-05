@@ -1,8 +1,8 @@
 {
-  "name": "ts-userscript",
+  "name": "grifox",
   "version": "1.0.0",
-  "description": "A template to quickly start developing userscripts with TypeScript",
-  "author": "The Outpost",
+  "description": "Melhorias no Grifo",
+  "author": "xaxim",
   "homepage": "https://github.com/astranomaly/ts-userscript-builder#readme",
   "repository": {
     "type": "git",
@@ -27,5 +27,7 @@
     "gulp-uglify-es": "^1.0.4",
     "typescript": "^3.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tslint": "^5.18.0"
+  }
 }
