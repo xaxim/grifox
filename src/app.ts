@@ -7,7 +7,7 @@ namespace userscript {
         const temposPendentes: any[] = [];
         const temposExcedentes: any[] = [];
         let saldo: number = 0;
-        for (let semana = 1; semana <= 6; semana++) {
+        for (let semana = 1; semana <= 5; semana++) {
             const tempoPendente = document.querySelector(`#divSecaoTotaisSemanais > fieldset > table > tbody > tr:nth-child(${semana}) > td:nth-child(6)`);
             const tempoExcedente = document.querySelector(`#divSecaoTotaisSemanais > fieldset > table > tbody > tr:nth-child(${semana}) > td:nth-child(7)`);
             if (tempoPendente && tempoPendente.textContent && tempoExcedente && tempoExcedente.textContent) {
